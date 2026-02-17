@@ -45,23 +45,23 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-inline-size: 1200px;
-  inline-size: 100%;
-  padding: 130px 30px;
-  width: 100vw;
+  inline-size: 1200px;
+  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  padding: 130px 30px;
+  width: 100vw;
 }
   
 .content {
   display: grid;
   grid-area: content;
   gap: 30px;
-  max-inline-size: 1140px;
   inline-size: 100%;
+  width: 1140px;
   grid-template-columns: 711px 399px;
   grid-template-areas: "result details";
   place-items: end;
